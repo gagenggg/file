@@ -1,2 +1,3 @@
 docker restart ombre-brain 刷新
 docker logs -f ombre-brain 日志
+Ctrl + C 退出日志
