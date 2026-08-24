@@ -1,0 +1,2 @@
+docker restart ombre-brain 刷新
+docker logs -f ombre-brain 日志
