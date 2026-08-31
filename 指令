@@ -1,4 +1,14 @@
 docker restart ombre-brain 刷新
 docker logs -f ombre-brain 日志
-Ctrl + C 退出日志
+Ctrl + C 退出
 "content": "我说\"这个AI工具很好用\""  导入记忆的json 格式用英文双引号需要在前面加一个\
+
+$env:HTTP_PROXY="http://127.0.0.1:7890"
+$env:HTTPS_PROXY="http://127.0.0.1:7890"
+claude.cmd
+/resume
+搜索对话名字
+ctrl c
+cd "D:\Claude code"
+claude.cmd --resume 4fef8ee8-0d8a-4556-8773-3a95509705a1
+/remote-control
